@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 import './App.css';
 import StarCanvasStyle from './canvas/Stars';
-import Hero from './components/Hero';
+import Hero from './componentsa/Hero';
 import Navbar from "./components/Navbar";
 import Contact from './Section/Contact';
 import Education from './Section/Education';

@@ -11,7 +11,7 @@ import { headContainerAnimation, headContentAnimation, headTextAnimation } from 
 const Hero = () => {
   const [isdarkmode, setIsDarkMode] = useState(false);
 
-  // Check localStorage for dark mode preference
+  
   useEffect(() => {
     const savedDarkMode = localStorage.getItem('darkMode') === 'true';
     setIsDarkMode(savedDarkMode);
@@ -23,7 +23,7 @@ const Hero = () => {
     localStorage.setItem('darkMode', !isdarkmode);
   };
 
-  // Apply dark mode class to the body
+  
   useEffect(() => {
     if (isdarkmode) {
       document.body.classList.add('dark-mode');
@@ -94,7 +94,7 @@ const Hero = () => {
           <div className="w-full md:order-2 order-1 flex md:justify-end flex-col justify-center items-center mb-[80px] sm:mb-[30px]">
             <Tilt>
               <img
-                className="rounded-[50%] w-full h-full md:max-w-[450px] md:max-h-[500px] border-[2px] border-blue-400 max-w-[250px] max-h-[300px]"
+                className="rounded-[20%] w-full h-full md:max-w-[450px] md:max-h-[500px] border-[2px] border-blue-400 max-w-[250px] max-h-[300px]"
                 src={HeroImg}
                 alt="not-found"
               />

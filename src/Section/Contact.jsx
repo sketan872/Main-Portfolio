@@ -51,20 +51,20 @@ const Contact = () => {
         >
           <div className="text-[28px] mb-[6px] font-[semibold] text-white">Email Me</div>
           <input
-            className="flex-[1] bg-transparent border-[1px] placeholder-purple-400 border-[#396795] outline-none text-[18px] text-[#010202] rounded-[12px] p-[12px_16px] focus:border-[#4585c6]"
+            className="flex-[1] bg-transparent border-[1px] placeholder-[#3ca4effc] placeholder border-[#396795] outline-none text-[18px] text-[#010202] rounded-[12px] p-[12px_16px] focus:border-[#4585c6]"
             placeholder="Your Email"
             name="from_email"
             type="email"
             required
           />
           <input
-            className="flex-[1] bg-transparent placeholder-purple-400 border-[1px] border-[#396795] outline-none text-[18px] text-[#010202] rounded-[12px] p-[12px_16px] focus:border-[#4585c6]"
+            className="flex-[1] bg-transparent placeholder-[#3ca4effc] border-[1px] border-[#396795] outline-none text-[18px] text-[#010202] rounded-[12px] p-[12px_16px] focus:border-[#4585c6]"
             placeholder="Your Name"
             name="from_name"
             required
           />
           <input
-            className="flex-[1] placeholder-purple-400 bg-transparent border-[1px] border-[#396795] outline-none text-[18px] text-[#010202] rounded-[12px] p-[12px_16px] focus:border-[#4585c6]"
+            className="flex-[1] placeholder-[#3ca4effc] bg-transparent border-[1px] border-[#396795] outline-none text-[18px] text-[#010202] rounded-[12px] p-[12px_16px] focus:border-[#4585c6]"
             placeholder="Subject"
             name="subject"
             required
@@ -72,7 +72,7 @@ const Contact = () => {
           <textarea
             rows={4}
             placeholder="Message"
-            className="flex-[1] placeholder-purple-400 bg-[transparent] outline-none border-[1px] border-[#396795] text-[18px] text-[#010202] rounded-[12px] p-[12px_16px] focus:border-[#4585c6]"
+            className="flex-[1] placeholder-[#3ca4effc] bg-[transparent] outline-none border-[1px] border-[#396795] text-[18px] text-[#010202] rounded-[12px] p-[12px_16px] focus:border-[#4585c6]"
             name="message"
             required
           ></textarea>
