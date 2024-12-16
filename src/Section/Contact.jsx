@@ -41,7 +41,7 @@ const Contact = () => {
           Contact Me
         </div>
         <p className="md:text-[18px] mb-[40px] text-center font-semibold text-[16px]">
-          Anyone can contact with me this Form
+        "Anyone can reach out to me through this form."
         </p>
         <div
           className="w-[95%] max-w-[600px] flex flex-col bg-[rgba(136,106,132,0.31)] border-[1px] border-[rgba(255,255,255,0.125)] p-[32px] rounded-[12px] mt-[28px] gap-[12px]"

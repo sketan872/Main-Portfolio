@@ -55,7 +55,7 @@ const Navbar = () => {
           {isdarkmode ? (
             <FaSun  className='text-3xl mr-[20px] cursor-pointer border-[2px] border-[#503beb] w-[70px] p-[5px] rounded-full hover:bg-yellow-300 hover:text-white transition-all duration-300 transform hover:scale-110' onClick={handleDarkModeToggle} />
           ) : (
-            <FaMoon  className='text-3xl mr-[20px] cursor-pointer border-[2px] border-[#503beb] w-[70px] p-[5px] rounded-full hover:bg-blue-500 hover:text-white transition-all duration-300 transform hover:scale-110' onClick={handleDarkModeToggle} />
+            <FaMoon  className='text-3xl mr-[20px] cursor-pointer border-[2px] border-[#503beb] w-[70px] p-[5px] text-white rounded-full hover:bg-blue-500 hover:text-white transition-all duration-300 transform hover:scale-110' onClick={handleDarkModeToggle} />
           )}
         </div>
 
@@ -70,11 +70,11 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className='Mobile-view'>
         <div className='md:hidden bg-[#111111] flex flex-col items-end w-[-10%] font-semibold  py-4'>
-          <a className='text-[#503beb] py-2 px-4 hover:text-black transition-all duration-200' href="#About">About</a>
-          <a className='text-[#503beb] py-2 px-4 hover:text-black transition-all duration-200' href="#Skills">Skills</a>
-          <a className='text-[#503beb] py-2 px-4 hover:text-black transition-all duration-200' href="#Experience">Experience</a>
-          <a className='text-[#503beb] py-2 px-4 hover:text-black transition-all duration-200' href="#Projects">Projects</a>
-          <a className='text-[#503beb] py-2 px-4 hover:text-black transition-all duration-200' href="#Education">Education</a>
+          <a className='text-[#503beb] py-2 px-4 hover:text-white transition-all duration-200' href="#About">About</a>
+          <a className='text-[#503beb] py-2 px-4 hover:text-white transition-all duration-200' href="#Skills">Skills</a>
+          <a className='text-[#503beb] py-2 px-4 hover:text-white transition-all duration-200' href="#Experience">Experience</a>
+          <a className='text-[#503beb] py-2 px-4 hover:text-white transition-all duration-200' href="#Projects">Projects</a>
+          <a className='text-[#503beb] py-2 px-4 hover:text-white transition-all duration-200' href="#Education">Education</a>
           
             {isdarkmode ? (
   <FaSun 
@@ -83,7 +83,7 @@ const Navbar = () => {
   />
 ) : (
   <FaMoon 
-    className='text-3xl mr-[20px] cursor-pointer border-[2px] border-[#503beb] w-[70px] p-[5px] rounded-full hover:bg-blue-500 hover:text-white transition-all duration-300 transform hover:scale-110'
+    className='text-3xl mr-[20px] cursor-pointer text-white  border-[2px] border-[#503beb] w-[70px] p-[5px] rounded-full hover:bg-blue-500 hover:text-white transition-all duration-300 transform hover:scale-110'
     onClick={handleDarkModeToggle} 
   />
 )}
